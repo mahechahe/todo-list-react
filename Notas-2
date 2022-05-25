@@ -1,0 +1,38 @@
+Principos de disennio en react: Principios que seguimos para pdoer hacer aplicaciones escalables
+
+Principios:
+Abstracciones comunes: React es una libreria y se enfoca en su trabajo en su objetivo, ayudarnos a construir las interfaces
+interactivas de nuestra aplicacion con componentes reutilizables. Esto significa que React no quiere incluir codigo inutil.
+
+Interoperabilidad: Que podamos acoplar React a nuestro codigo, en herramientas que esten usando otras librerias.
+
+Estabilidad: Va a mantener su API, su misma funcionalidad, todos los principios y patrones van a ser igual.
+
+Valvulas de escape: React nos avisa que ya no debemos de usar un patron y debemos migrar a otra forma de ejecucion, nos van a dar
+una solucion que nos den mas experencia.
+
+Propiedades o prioridades:
+Implementacion: Siempre escribir codigo elegante. Por debajo del codigo aburrido para asegurarnos que siempre nuestro codigo va a 
+mejorar.
+
+DogFooding: Pirorizar la herramienta que mas se necesite: React es demasiado confiable.
+
+
+Filosofia de React para nosotros:
+
+Planificacion: Como React renderiza nuestros elementos y componentes.
+Configuracion: Siempre tener compatibilidad con las diferentes herramientas.
+
+Depuracion: React siempre nos deja postas para buscar los errorres de nuestra aplicacion, como errores de logica. aprovechar y leer
+muy bien la consola. (No tenerle miedo a los errores).
+
+Composicion: Crear componentes que nos dan libertad del donde y como usamos nuestros componentes
+- Debe de ser muy flexible cada componente.
+- Faciles de implementar al resto de nuestros componentes
+
+Render props:
+Es un patron que nos ayuda a elevear nuestro composion de componentes a otro nivel
+
+React.children y React.cloneElement: Sirve para pasar propiedades especiales a los componentes hijos de nuestros componentes contenedores
+
+High order Components o (HOC)
